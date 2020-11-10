@@ -1,5 +1,5 @@
 package org.hbrs.se.ws20.uebung1.control;
-
+import org.hbrs.se.ws20.uebung1.view.*;
 /**
  * Das Translator Interface. Die Anzahl der Methoden ist fix
  * und darf NICHT erweitert werden. Sichtbarkeiten der Methoden koennen
@@ -9,7 +9,7 @@ package org.hbrs.se.ws20.uebung1.control;
  *
  */
 
-interface Translator {
+	public interface Translator {
 	
 	double version = 1.0; // Version des Interface
 	
